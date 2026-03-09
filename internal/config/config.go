@@ -29,6 +29,7 @@ func Default() *Config {
 	}
 }
 
+// Load загружает конфиг из YAML-файла
 func Load(yamlPath string) (*Config, error) {
 	cfg := Default()
 
