@@ -1,5 +1,8 @@
 module github.com/gmburov/service-autocompletion
 
-go 1.21
+go 1.22
 
-require gopkg.in/yaml.v3 v3.0.1 // indirect
+require (
+	github.com/go-chi/chi/v5 v5.2.5 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
+)
